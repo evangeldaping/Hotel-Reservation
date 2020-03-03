@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<title>media break points in Bootsrap4</title>
+
+<style>
+  .size{
+    background-color: green;
+    height: 80vh;
+  }
+
+  /* xs */
+  @media (max-width: 575px) {
+    .size{
+      background-color: red;
+      height: 80vh;
+      background: url(https://imgprod65.hobbylobby.com/sys-master/migrated/he6/h35/h00/8861430382622/397182_2[5].jpg) no-repeat center center fixed;
+      background-size: cover;
+    }
+    .xs p{
+      color: green;
+    }
+  }
+
+  /* sm */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .size{
+      background-color: blue;
+      height: 80vh;
+      background: url(https://imgprod65.hobbylobby.com/6/34/3e/6343e223b8c7a3c32a9e1cc946ec99b103243a24/350Wx350H-1667138-1018.jpg) no-repeat center center fixed;
+      background-size: cover;
+    }
+    .sm p{
+      color: orange;
+    }
+  }
+
+  /* md */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .size{
+      background-color: black;
+      height: 80vh;
+      background: url(https://www.limitlessmotorsports.ca/14552-product_offer_mobi/eat-sleep-race-black-turbo-speedlines-t-shirt-medium.jpg) no-repeat center center fixed;
+      background-size: cover;
+    }
+    .md p{
+      color: pink;
+    }
+  }
+
+  /* lg */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .size{
+      background-color: orange;
+      height: 80vh;
+      background: url(https://imgprod65.hobbylobby.com/sys-master/migrated/he6/h35/h00/8861430382622/397182_2[5].jpg) no-repeat center center fixed;
+      background-size: cover;
+    }
+    .lg p{
+      color: blue;
+    }
+  }
+
+  /* xl */
+  @media (min-width: 1200px){
+    .size{
+      background-color: #c1c1;
+      height: 80vh;
+      background: url(https://i.ebayimg.com/images/g/~7gAAOSwaURc6AVG/s-l400.jpg) no-repeat center center fixed;
+      background-size: cover;
+    }
+    .xl p{
+      color: red;
+    }
+  }
+
+  -----------------------------------------------------
+  /* column grid basics */
+  .con{
+    background-color: grey;
+    height: 100vh;
+  }
+  .grey{
+    background-color: orange;
+    height: 200px;
+  }
+  .gr{
+    background-color: red;
+    height: 200px;
+  }
+</style>
+
+</head>
+<body>
+  <!-- <h1>T-shirt size:</h1></div>
+
+  <div class="container-fluid size">
+
+  <div class="xs"><p>EXTRA SMALL</p></div>
+  <div class="sm"><p>SMALL</p></div>
+  <div class="md"><p>MEDIUM</p></div>
+  <div class="lg"><p>LARGE</p></div>
+  <div class="xl"><p>EXTRA LARGE</p></div> -->
+
+  <div class="container con">
+    <div class="row">
+      <div class="col grey">column 1</div>
+      <div class="col gr">column 2</div>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+
+</html>

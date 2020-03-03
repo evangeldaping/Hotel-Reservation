@@ -1,0 +1,26 @@
+body{
+  background: url(beans.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'Sriracha', cursive;
+}
+
+.rowHeight{
+  height: 500px;
+}
+
+h1{
+  font-size: 5.5em;
+  color: white;
+}
+
+.footer{
+  background-color: #fff;
+  bottom: 0;
+  position: fixed;
+}
+
+p{
+  font-size: 18px;
+  padding: 10px;
+}

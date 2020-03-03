@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Document</title>
+<style>
+
+</style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">A project based approach to learn Modal</h1>
+        <p class="text-center"><a href="#" data-target="#login-modal" data-toggle="modal" role="button" class="btn btn-primary btn-lg">Login Here</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="login-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img id="img_logo" class="img-thumbnail" src="logo.png" alt="">
+        </div>
+        <div id="div-forms">
+
+          <form>
+            <div class="modal-body">
+              <div>
+                <span>Type your Email and password here:</span>
+              </div>
+                <input class="form-control" placeholder="Email" type="text" required>
+                <input class="form-control" placeholder="Password" type="text" required>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me
+                </label>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="row">
+                <div class="col-sm-5">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+                </div>
+                <div class="col-sm-7">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">Sign up</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</html>
