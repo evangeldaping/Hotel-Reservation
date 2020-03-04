@@ -32,7 +32,7 @@ section > media-item {
   margin: 10px;
 }
 footer {
-  text-align: right;
+  text-align: left;
 }
 footer .icon {
   width: 64px;

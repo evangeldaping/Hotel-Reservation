@@ -25,3 +25,7 @@ section > header > h1 {
 section > header .description {
   font-style: italic;
 }
+.icon {
+  width: 100px;
+  height: 64px;
+}

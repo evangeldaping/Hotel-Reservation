@@ -48,10 +48,10 @@ interface MediaItemsResponse {
 
 export interface MediaItem {
   id: number;
-  name: string;
   medium: string;
+  name: string;
   category: string;
   year: number;
-  watchedOn: number;
-  isFavorite: boolean;
+  description: string;
+  photoPath?: string;
 }

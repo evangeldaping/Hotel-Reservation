@@ -1,16 +1,11 @@
-<header>
-  <h2>Add Media to Watch</h2>
+<div class="container">
+  <header>
+  <h1>Add Car</h1>
 </header>
 <form
   [formGroup]="form"
   (ngSubmit)="onSubmit(form.value)">
   <ul>
-    <li>
-      <label for="medium">Medium</label>
-      <select name="medium" id="medium" formControlName="medium">
-        <option *ngFor="let medium of lookupLists.mediums" value="{{medium}}">{{medium}}</option>
-      </select>
-    </li>
     <li>
       <label for="name">Name</label>
       <input type="text" name="name" id="name" formControlName="name">
@@ -18,8 +13,16 @@
         Name has invalid characters
       </div>
     </li>
+
     <li>
-      <label for="category">Make</label>
+      <label for="medium">Medium</label>
+      <select name="medium" id="medium" formControlName="medium">
+        <option *ngFor="let medium of lookupLists.mediums" value="{{medium}}">{{medium}}</option>
+      </select>
+    </li>
+   
+    <li>
+      <label for="category">Category</label>
       <select name="category" id="category" formControlName="category">
         <option value="Acura">Acura</option>
         <option value="Allis Chalmers">Allis Chalmers</option>
@@ -106,6 +109,19 @@
         {{yearErrors.year.max}}
       </div>
     </li>
+    <li>
+      <label for="name">Description</label>
+      <input type="name" name="name" id="name" formControlName="name">
+    </li>
+    <li>
+      <label for="photoPath">Photo Path</label>
+      <input id="photoPath" type="file" (change)="onselectFile($event)" name="photoPath"class="form-control">
+      <button type="button" (click)="togglePhotoPreview()" class="btn btn-primary">
+          {{previewPhoto? "Hide ": "Show "}} Preview
+      </button>
+      <img [src]="photoPath" height="200" width="200" *ngIf="previewPhoto">
+    </li>
   </ul>
   <button type="submit" [disabled]="!form.valid">Save</button>
 </form>
+</div>

@@ -10,6 +10,7 @@ import { lookupListToken } from '../providers';
   styleUrls: ['./media-item-form.component.css']
 })
 export class MediaItemFormComponent implements OnInit {
+  previewPhoto = false;
   form: FormGroup;
 
   constructor(
@@ -20,7 +21,7 @@ export class MediaItemFormComponent implements OnInit {
 
   ngOnInit() {
     this.form = this.formBuilder.group({
-      medium: this.formBuilder.control('Movies'),
+      medium: this.formBuilder.control('BrandNew'),
       name: this.formBuilder.control('', Validators.compose([
         Validators.required,
         Validators.pattern('[\\w\\-\\s\\/]+')
@@ -54,5 +55,21 @@ export class MediaItemFormComponent implements OnInit {
       .subscribe(() => {
         this.router.navigate(['/', mediaItem.medium]);
       });
+  }
+
+  togglePhotoPreview() {
+    this.previewPhoto = !this.previewPhoto;
+  }
+
+  url="./assets/addCar.png";
+
+  onselectFile(e) {
+    if(e.target.files){
+      var reader = new FileReader();
+      reader.readAsDataURL(e.target.files[0]);
+      reader.onload=(event:any)=>{
+        this.url=event.target.result;
+      } 
+    }
   }
 }

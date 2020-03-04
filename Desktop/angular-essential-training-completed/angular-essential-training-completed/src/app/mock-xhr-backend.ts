@@ -5,45 +5,51 @@ export class MockXHRBackend implements HttpBackend {
   private mediaItems = [
     {
       id: 1,
-      name: 'Firebug',
-      medium: 'Series',
-      category: 'Science Fiction',
-      year: 2010,
-      watchedOn: 1294166565384,
-      isFavorite: false
+      name: 'Acura RSX',
+      medium: 'SecondHand',     
+      category: 'Acura',
+      year: 2004,
+      description: 'Acura Series',
+      photoPath: 'https://st.motortrend.com/uploads/sites/10/2018/07/2019-acura-rdx-suv-angular-front.png'
     },
     {
       id: 2,
-      name: 'The Small Tall',
-      medium: 'Movies',
-      category: 'Comedy',
-      year: 2015,
-      watchedOn: null,
-      isFavorite: true
-    }, {
+      name: 'BMW M4 Coupe',
+      medium: 'BrandNew',    
+      category: 'BMW',
+      year: 2017,
+      description: 'BMW Series',
+      photoPath:'https://www.bmwusa.com/content/dam/bmwusa/XModels/Overview/2019/BMW-MY19-XSeries-Overview-Hero.png'
+    }, 
+    {
       id: 3,
-      name: 'The Redemption',
-      medium: 'Movies',
-      category: 'Action',
-      year: 2016,
-      watchedOn: null,
-      isFavorite: false
-    }, {
+      name: 'Mitsubishi Montero Sport',
+      medium: 'BrandNew',
+      category: 'Mitsubishi',
+      year: 2010,
+      description: 'Mitsubishi Series', 
+      photoPath:'https://assets.newcars.com/images/pictures/VEHICLE/2020/Mitsubishi/Mitsubishi-Outlander-Sport-USD00MIS052A021001-E.png'
+  
+    }, 
+    {
       id: 4,
-      name: 'Hoopers',
-      medium: 'Series',
-      category: 'Drama',
-      year: null,
-      watchedOn: null,
-      isFavorite: true
-    }, {
+      name: 'Toyota Camry 99',
+      medium: 'SecondHand',
+      category: 'Toyota',
+      year: 2005,
+      description: 'Toyota Series',
+      photoPath:'http://3ge.shared.assets.s3.amazonaws.com/new-model-pages/toyota/2015/camry/15_camry-vehicle.png'
+   
+    }, 
+    {
       id: 5,
-      name: 'Happy Joe: Cheery Road',
-      medium: 'Movies',
-      category: 'Action',
-      year: 2015,
-      watchedOn: 1457166565384,
-      isFavorite: false
+      name: 'Honda CR-V',
+      medium: 'SecondHand',    
+      category: 'Honda',
+      year: 2000,
+      description: 'Honda Series',
+      photoPath:'https://di-uploads-pod1.dealerinspire.com/rensselaerhonda/uploads/2018/05/2019-Honda-Odyssey-Model-Hero.png'
+   
     }
   ];
 

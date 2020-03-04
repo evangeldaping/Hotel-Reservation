@@ -1,18 +1,21 @@
 <nav>
   <a routerLink="/">
-    <img src="assets/04.png" class="icon" />
+    <img src="assets/carLists.png" class="icon" />
   </a>
-  <a routerLink="/Movies">
-    <img src="assets/03.png" class="icon" />
+  <a routerLink="/BrandNew">
+    <img src="assets/brandNew.png" class="icon" />
   </a>
-  <a routerLink="/Series">
-    <img src="assets/02.png" class="icon" />
+  <a routerLink="/SecondHand">
+    <img src="assets/secondHand.png" class="icon" />
+  </a>
+  <a routerLink="/add">
+    <img src="assets/addCar.png" class="icon">
   </a>
 </nav>
 <section>
   <header>
-    <h1>Welcome to XYZ Cars…</h1>
-    <p class="description">Keeping track of the media I want to watch.</p>
+    <app-welcome></app-welcome> 
+    <marquee><img src="assets/car.png" class="icon"><img src="assets/sale.png" class="icon"></marquee>
   </header>
   <router-outlet></router-outlet>
 </section>

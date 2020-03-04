@@ -1,8 +1,8 @@
 :host {
   display: flex;
   flex-direction: column;
-  width: 140px;
-  height: 200px;
+  width: 350px;
+  height: 500px;
   border: 2px solid;
   background-color: #29394b;
   padding: 10px;
@@ -69,4 +69,16 @@ h2 {
   border-radius: 4px;
   color: #ffffff;
   text-decoration: none;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
