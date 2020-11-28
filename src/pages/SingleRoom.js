@@ -8,4 +8,4 @@ const SingleRoom = () => {
     )
 }
 
-export default SingleRoom
+export default SingleRoom;
