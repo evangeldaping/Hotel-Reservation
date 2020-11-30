@@ -1,5 +1,4 @@
 import React from 'react'
-import Rooms from '../pages/Rooms'
 import Room from './Room'
 
 export default function RoomList({rooms}) {
