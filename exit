@@ -1,0 +1,65 @@
+[33mcommit 3e1fc675a3b0e1ebaa8ac91bdb6ac77ba8b5b441[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Sun Nov 29 18:30:24 2020 -0800
+
+    RoomContainer
+
+[33mcommit 42837455d01e12047485eac40823ef150afd2abd[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Sun Nov 29 17:34:12 2020 -0800
+
+    SingleRoom
+
+[33mcommit 922b0379081ae157621db369141f0d948c4c1669[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Sun Nov 29 17:13:13 2020 -0800
+
+    StyledHero
+
+[33mcommit 3f718ac9d93e391ba4d8916f6b512695ab3c6ede[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Sun Nov 29 15:06:27 2020 -0800
+
+    FeaturedRooms Final
+
+[33mcommit 3fe365ccd953ba4179b1b3a03e0ab95415695f71[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Sat Nov 28 00:30:44 2020 -0800
+
+    FeaturedRooms Initial
+
+[33mcommit 87433f23d820e1f5f2996f620d29a1f32ab2b7e0[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Fri Nov 27 23:24:37 2020 -0800
+
+    Services
+
+[33mcommit 59eb61d71ca2ddac7ebe92d42c2978f4a9b3bc87[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Fri Nov 27 22:32:21 2020 -0800
+
+    Banner
+
+[33mcommit 99ea70ad3c0cfec724e69eabc07648489695a17b[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Fri Nov 27 21:49:09 2020 -0800
+
+    Hero
+
+[33mcommit 92de6f9a30ea3138669ff9e0f834e690b288a129[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Fri Nov 27 21:28:59 2020 -0800
+
+    Navbar
+
+[33mcommit cdea06dfb578d0baaf1eb7ed27eb32cc379d82df[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Fri Nov 27 20:57:14 2020 -0800
+
+    Route and Switch Setup
+
+[33mcommit e9f4d8eb3d2391562b4bc14a626fb0429fdc6215[m
+Author: evangel <evangeldaping@gmail.com>
+Date:   Fri Nov 27 20:27:08 2020 -0800
+
+    Initial Setup
